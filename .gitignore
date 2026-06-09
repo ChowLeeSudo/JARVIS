@@ -1,0 +1,22 @@
+# ── Secrets (NEVER commit your API key) ──
+config/api_keys.json
+*.key
+.env
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# ── OS / editor ──
+.vs/
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store
